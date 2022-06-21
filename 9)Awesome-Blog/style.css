@@ -1,0 +1,39 @@
+.navbar{
+    background-color: #085e7b!important;
+}
+
+.bg-dark{
+    background-color: #085e7b!important;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+}
+
+#map{
+    height: 450px;
+}
+
+/* .card img{
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+} */
+
+@media (min-width: 768px) {
+    .card-img-top{
+        height: 32vh;
+    }
+
+    #map{
+        height: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    .card-img-top{
+        height: 35vh;
+    }
+}
